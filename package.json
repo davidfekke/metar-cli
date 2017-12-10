@@ -1,0 +1,37 @@
+{
+  "name": "metar-cli",
+  "version": "1.0.0",
+  "description": "A command line tool to get METARs based on ICAO codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfekke/metar-cli.git"
+  },
+  "keywords": [
+    "METAR",
+    "Aviation",
+    "Weather",
+    "NOAA",
+    "FAA"
+  ],
+  "author": "David Fekke <david@fekke.com>",
+  "license": "Apache-2.0",
+  "bin": {
+    "metar": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/davidfekke/metar-cli/issues"
+  },
+  "homepage": "https://github.com/davidfekke/metar-cli#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "isomorphic-fetch": "^2.2.1",
+    "metar": "^1.0.0"
+  }
+}
